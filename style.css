@@ -49,14 +49,18 @@ h2{
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
 }
 .recipie img{
-    width: 75%;
+    width: 80%;
+    border-radius: 10px;
 }
 footer{
     text-align: center;
     background-color: black;
+}
+footer p{
+    color: white;
 }
