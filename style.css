@@ -19,7 +19,7 @@ h2{
 }
 .flexible-container{
     display: flex;
-    margin: 50px;
+    margin: 100px;
 }
 .half-width{
     width: 50%;
@@ -39,7 +39,7 @@ h2{
 .bio{
     background-image: url(images/bio-bg.jpg);
     background-repeat: no-repeat;
-    /* background-position: right; */
+    background-position: right;
 }
 .recipie-header{
     text-align: center;
@@ -48,10 +48,15 @@ h2{
     width: 20%;
     margin-left: 5%;
     margin-right: 5%;
-    padding-left: 20px;
+    padding: 20px;
+    height: 200px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
 }
 .recipie img{
-    width: 100%;
+    width: 75%;
+}
+footer{
+    text-align: center;
+    background-color: black;
 }
